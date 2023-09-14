@@ -4,3 +4,13 @@ class PlayerCharacter:
         self.name = name
         self.gender = gender
         self.hp = 100
+
+    #def move
+
+    #def fight
+
+    #def heal
+
+    #def speak
+
+    #def investigate
