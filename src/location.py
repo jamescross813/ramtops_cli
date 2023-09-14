@@ -5,3 +5,4 @@ class Location:
         self.coordinates = coordinates
         self.description = description
         
+    #def __repr__()
