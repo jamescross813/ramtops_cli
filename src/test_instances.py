@@ -1,4 +1,4 @@
-from player import Player
+from player_character import PlayerCharacter
 
-new_player = Player("Bob", "male")
+new_player = PlayerCharacter("Bob", "male")
 print(new_player.name)
