@@ -1,5 +1,5 @@
 #general non-playable character class
-class npc:
+class Npc:
     def __init__(self, name, type, hp, description):
         self.name = name
         self.type = type
