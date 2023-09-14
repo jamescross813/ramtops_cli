@@ -1,5 +1,5 @@
 from player_character import PlayerCharacter
 
-new_player = PlayerCharacter()
-new_player.name ="Bob"
+new_player = PlayerCharacter("Bob", "male")
+
 print(new_player.name)
