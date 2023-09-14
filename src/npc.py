@@ -5,3 +5,9 @@ class Npc:
         self.type = type
         self.hp = hp
         self.description = description
+
+    #def fight
+
+    #def speak
+
+    
