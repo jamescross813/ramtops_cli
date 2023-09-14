@@ -7,3 +7,5 @@ class Item:
         self.hitpoints = hitpoints
         self.health = health
         self.defense = defense
+
+    #def __repr__()
