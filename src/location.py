@@ -5,4 +5,5 @@ class Location:
         self.coordinates = coordinates
         self.description = description
         
-    #def __repr__()
+    def __repr__(self):
+        return "Welcome to {0}, {2}. Your current coordinates are {2}".format(self.name, self.description, self.coordinates)
