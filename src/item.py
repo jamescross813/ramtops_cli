@@ -13,5 +13,5 @@ class Item:
 
     #when health item is used can not be used for health again
     def used(self):
-        if self.type == 'health':
+        if self.type == 'Health':
             self.health = 0
