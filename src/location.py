@@ -21,4 +21,9 @@ class Location:
         self.coordinates[0] = current_location[0]-1
         return self.coordinates
     
+    def west(self):
+        current_location = self.coordinates
+        self.coordinates[1] = current_location[1]-1
+        return self.coordinates
+    
     
