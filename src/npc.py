@@ -13,5 +13,5 @@ class Npc:
     #def fight
 
     #def speak
-
+    
     
