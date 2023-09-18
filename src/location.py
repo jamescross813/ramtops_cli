@@ -7,3 +7,6 @@ class Location:
         
     def __repr__(self):
         return "Welcome to {0}, {2}. Your current coordinates are {2}".format(self.name, self.description, self.coordinates)
+    
+    def location(self):
+        return "{0}: {1}".format(self.name, self.coordinates)
