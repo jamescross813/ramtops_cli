@@ -26,4 +26,7 @@ class Location:
         self.coordinates[1] = current_location[1]-1
         return self.coordinates
     
-    
+    def east(self):
+        current_location = self.coordinates
+        self.coordinates[1] = current_location[1]+1
+        return self.coordinates
