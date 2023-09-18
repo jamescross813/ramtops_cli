@@ -10,3 +10,7 @@ class Item:
 
     def __repr__(self):
         return "A {0}. {1} Using this will give you: Health {2}, Attack {3}, Defense {4}.".format(self.name, self.description, self.health, self.hitpoints, self.defense)
+    
+    def use(self):
+        if self.type == 'health':
+            self.health = 0
