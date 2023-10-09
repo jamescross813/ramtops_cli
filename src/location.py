@@ -10,7 +10,8 @@ class Location:
     
     def locate_player(self):
         return "{0}: {1}".format(self.name, self.coordinates)
-    
+        
+    #moves cutomer south/north/east/west given input
     def north(self):
         current_location = self.coordinates
         self.coordinates[0] = current_location[0]+1
@@ -30,3 +31,11 @@ class Location:
         current_location = self.coordinates
         self.coordinates[1] = current_location[1]+1
         return self.coordinates
+    
+
+    #could include number of 'miles' to move in given direction
+    #could include more options for movement (NNW etc)
+    #need check in input stage that direction input is valid
+    #quick travel option
+    #need to search in location db for when info on where character is
+    #
