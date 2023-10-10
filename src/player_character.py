@@ -25,4 +25,5 @@ class PlayerCharacter:
         #input from user?
 
     #def investigate
-        
+        #find items in certain locations, items will need location attr
+        #throw to location, which will throw to item?- location will check with item if items db has anything at given location?

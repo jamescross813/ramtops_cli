@@ -15,3 +15,4 @@ class Item:
     def used(self):
         if self.type == 'Health':
             self.health = 0
+        #should this be changed to just losing item?
