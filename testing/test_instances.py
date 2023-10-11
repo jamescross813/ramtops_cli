@@ -1,7 +1,7 @@
-from player_character import PlayerCharacter
-from npc import Npc
-from location import Location
-from item import Item
+from src.npc import Npc
+from src.location import Location
+from src.item import Item
+from src.player_character import PlayerCharacter
 
 new_player = PlayerCharacter("Bob", "male")
 print(new_player)
