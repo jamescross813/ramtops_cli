@@ -22,7 +22,7 @@ class PlayerCharacter:
         #throw to item to use up health item
 
     #def speak
-        #input from user?
+        #input from user? or give choices, with response from npc
 
     #def investigate
         #find items in certain locations, items will need location attr
