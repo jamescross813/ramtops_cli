@@ -1,4 +1,6 @@
 #import player, npc, item, location
+from location import Location
+
 
 #ask what player wants to do
 #check input is allowed
