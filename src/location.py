@@ -34,8 +34,8 @@ class Location:
     
 
     #could include number of 'miles' to move in given direction
-    #could include more options for movement (NNW etc)
+    #could include more options for movement (NNW etc) - do with dditional coodrinates
     #need check in input stage that direction input is valid
-    #quick travel option
+    #quick travel option - do when additional locations.
     #need to search in location db for when info on where character is
-    #
+    
