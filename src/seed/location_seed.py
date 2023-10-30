@@ -1,4 +1,7 @@
+import src
+src.path.append("location")
 from location import Location
+
 
 loc1 = Location("Mad Stoat", (1,2), "a place")
 loc2 = Location("Lancre", (2,3), "a place")
