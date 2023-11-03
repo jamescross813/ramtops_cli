@@ -7,14 +7,18 @@ from item import Item
 import click
 
 class Cli:
-    @click.command()
-    @click.option("--name", prompt="Welcome to the Ramptops! We're happy to have you here, but what's your name traveller?", help="The name of the user")
+    def welcome():
+        name = input("Welcome to the Ramptops! We're happy to have you here, but what's your name traveller?")
+        Cli.hello(name)
     
     def hello(name):
-        click.echo(f"Hello {name}!")
-        
-    hello()
+        print(f"Welcome {name}")
 
+ 
+        
+Cli.welcome()
+
+    
 #ask what player wants to do
 #check input is allowed
 #send to appropriate function(swtich statement)
