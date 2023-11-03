@@ -14,9 +14,11 @@ class Cli:
     def hello(name):
         print(f"Welcome {name}")
 
-    #def location- where you are
+    #def check- where you are- check for allies and enemies and items--> give appropriate options
 
     #def options: what do you want to do
+
+    
 
 
 Cli.welcome()
