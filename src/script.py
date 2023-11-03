@@ -14,8 +14,11 @@ class Cli:
     def hello(name):
         print(f"Welcome {name}")
 
- 
-        
+    #def location- where you are
+
+    #def options: what do you want to do
+
+
 Cli.welcome()
 
     
