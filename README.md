@@ -1,6 +1,10 @@
 Ramptops CLI
 
-A python based CLI game based in the discworld universe. 
+A python based CLI game based in the discworld universe. User will be able to:
+-move aorund theworld
+-interact and use objects
+-interact with allies
+-fight enemies
 
 This project was undertaken as part of codeacademy cou,pter science course with the following objectives:
 
