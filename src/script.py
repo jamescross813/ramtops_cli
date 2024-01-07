@@ -26,7 +26,7 @@ class Cli:
         Cli.checkLocation(location)
         
     
-    def checkLocation():
+    def checkLocation(location):
         #check location for allies/enemies
             #if present let player know/give option to interact/fight
         #check location for items
