@@ -18,15 +18,20 @@ class Cli:
     #def check- where you are- check for allies and enemies and items--> give appropriate options
 
     def check():
+        location = PlayerCharacter.current_location()
         if PlayerCharacter.current_location() == False:
             temp_loc ={0,0}
         else:
             Location.__repr__()
-        checkLocation()
+        Cli.checkLocation(location)
+        
+    
+    def checkLocation():
         #check location for allies/enemies
             #if present let player know/give option to interact/fight
         #check location for items
             #if present let player interCact
+
     #def options: what do you want to do
 
     
