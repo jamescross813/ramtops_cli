@@ -22,6 +22,7 @@ class Cli:
             temp_loc ={0,0}
         else:
             Location.__repr__()
+        checkLocation()
         #check location for allies/enemies
             #if present let player know/give option to interact/fight
         #check location for items
