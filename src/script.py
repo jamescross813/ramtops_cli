@@ -36,8 +36,7 @@ class Cli:
 
     
 
-
-Cli.welcome()
+# Cli.welcome()
 
     
 #ask what player wants to do
