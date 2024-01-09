@@ -3,7 +3,6 @@ from player_character import PlayerCharacter
 from npc import Npc
 from item import Item
 
-import click
 
 class Cli:
     temp_loc ={}
