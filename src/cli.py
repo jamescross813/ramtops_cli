@@ -29,5 +29,7 @@ class Cli:
             #if present let player know/give option to interact/fight
         #check location for items
             #if present let player interCact
-
-    #def options: what do you want to do
+        return ("Something")
+    
+    #def options: 
+        #what do you want to do
