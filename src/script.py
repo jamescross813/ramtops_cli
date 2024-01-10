@@ -1,9 +1,7 @@
-#import player, npc, item, location
+#import player, npc, item, location, cli
+from cli import Cli
 
-
-    
-
-# Cli.welcome()
+Cli.welcome()
 
     
 #ask what player wants to do
