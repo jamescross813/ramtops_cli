@@ -2,7 +2,7 @@
 from cli import Cli
 
 Cli.welcome()
-
+Cli.check()
     
 #ask what player wants to do
 #check input is allowed
