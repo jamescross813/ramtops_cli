@@ -10,7 +10,7 @@ Cli.welcome()
 Cli.check()
 
 #allow user to interact with PoIs
-
+Cli.move()
 #allow movement
 
 #return to check action 
