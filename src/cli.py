@@ -31,7 +31,8 @@ class Cli:
             #if present let player interCact
         return ("Something")
     
-    #def options: 
+    def options(): 
+        choice = input("What would like to do? (Fight, Talk, Use Item, Pick up item, move)")
         #what do you want to do? take in command, check it is one of the correct words and do a thing based on it
         #should take in move, talk, use item, fight
         #stretch for choices to be given based on location
