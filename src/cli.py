@@ -34,15 +34,15 @@ class Cli:
     def options(): 
         choice = input("What would like to do? (Fight, Talk, Use Item, Pick up item, move)")
         #what do you want to do? take in command, check it is one of the correct words and do a thing based on it
-        if choice == "move":
+        if choice.lower() == "move":
             return ("move")
-        elif choice == "fight":
+        elif choice.lower() == "fight":
             return ("fight")
-        elif choice == "talk":
+        elif choice.lower() == "talk":
             return ("talk")
-        elif choice == "use item":
+        elif choice.lower() == "use item":
             return ("use item")
-        elif choice == "pick up item":
+        elif choice.lower() == "pick up item":
             return ("pick up item")
         else:
             return ("try again")
