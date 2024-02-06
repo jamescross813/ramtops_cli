@@ -34,5 +34,17 @@ class Cli:
     def options(): 
         choice = input("What would like to do? (Fight, Talk, Use Item, Pick up item, move)")
         #what do you want to do? take in command, check it is one of the correct words and do a thing based on it
+        if choice == "move":
+            return ("move")
+        elif choice == "fight":
+            return ("fight")
+        elif choice == "talk":
+            return ("talk")
+        elif choice == "use item":
+            return ("use item")
+        elif choice == "pick up item":
+            return ("pick up item")
+        else:
+            return ("try again")
         #should take in move, talk, use item, fight
         #stretch for choices to be given based on location
