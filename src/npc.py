@@ -2,11 +2,12 @@
 from location import Location
 
 class Npc:
-    def __init__(self, name, type, hp, description):
+    def __init__(self, name, type, hp, description, hitPoints):
         self.name = name
         self.type = type
         self.hp = hp
         self.description = description
+        self.hitPoints = hitPoints
         #needs a location
         #need attack points
 
