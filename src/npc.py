@@ -1,4 +1,6 @@
 #general non-playable character class
+from location import Location
+
 class Npc:
     def __init__(self, name, type, hp, description):
         self.name = name
